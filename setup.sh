@@ -12,6 +12,7 @@ sudo apt install curl
 
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo add-apt-repository ppa:openjdk-r/ppa
 
 sudo apt update
 sudo apt install \
@@ -31,6 +32,7 @@ sudo apt install \
   libxml2 \
   libxml2-dev \
   moreutils \
+  openjdk-15-jdk \
   pkg-config \
   powerline \
   python3-pip \
