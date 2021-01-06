@@ -6,3 +6,5 @@ alias cldap="lpass show -qc --password 9003946599088515358"
 
 alias cclip="xclip -selection c"
 alias pclip="xclip -o -selection c"
+
+alias bat="batcat"

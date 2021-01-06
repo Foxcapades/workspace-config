@@ -17,6 +17,7 @@ sudo apt update
 sudo apt install \
   asciidoctor \
   bash-completion \
+  bat \
   build-essential \
   ca-certificates \
   cmake \
