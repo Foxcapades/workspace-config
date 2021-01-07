@@ -23,6 +23,8 @@ sudo apt install \
   ca-certificates \
   cmake \
   curl \
+  docker.io \
+  docker-compose \
   expect \
   git \
   libcurl4 \
@@ -90,6 +92,7 @@ bash "${CWD}/bin/lpass.sh"
 # Python stuff
 #
 pip3 install pygments
+pip3 install sshuttle
 
 #
 # Java Tools
