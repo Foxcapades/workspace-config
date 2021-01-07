@@ -102,3 +102,8 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install gradle
 sdk install maven
 
+#
+# Docker stuff
+#
+sudo groupadd docker
+sudo usermod -aG docker $USER
